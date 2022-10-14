@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(39, 151, 216);
+}
+
 .hover img {
   -webkit-transform: scale(1);
   transform: scale(1);
@@ -12,13 +16,18 @@
 .img {
   overflow: hidden;
 }
-
-.foto {
-  /* flex-direction: column; */
-  display: grid;
-  justify-content: space-evenly;
-  gap: 3px;
-  align-items: center;
-  grid-column-start: 1;
-  grid-column-end: 3;
+h1 {
+  color: rgb(8, 27, 51);
+  text-shadow: 4px 4px 4px #222121;
+  letter-spacing: 14px;
+  font-size: 60px;
+  font-family: cursive;
+}
+h5 {
+  color: rgb(14, 69, 136);
+  text-shadow: 2px 1px 1px #222121;
+  font-family: cursive;
+}
+div .card {
+  border: 2px solid gray;
 }

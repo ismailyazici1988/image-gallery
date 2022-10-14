@@ -6,8 +6,8 @@ function Picture(props) {
         <img
           src={large}
           className="card-img-top"
-          alt="img"
           style={{ height: "40vh" }}
+          alt="img"
         />
       </div>
 
