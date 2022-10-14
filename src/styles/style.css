@@ -1,0 +1,24 @@
+.hover img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.75s ease-in-out;
+  transition: 0.75s ease-in-out;
+  display: inline-block;
+}
+.hover img:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.3);
+}
+.img {
+  overflow: hidden;
+}
+
+.foto {
+  /* flex-direction: column; */
+  display: grid;
+  justify-content: space-evenly;
+  gap: 3px;
+  align-items: center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
